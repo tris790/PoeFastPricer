@@ -1,0 +1,2327 @@
+{
+    "result": [
+        {
+            "id": "8c49b8e6113a97917d970a262e66173bdab4db528568d3d3834bc33419f37dfd",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2020-01-02T04:53:34Z",
+                "stash": {
+                    "name": "items",
+                    "x": 3,
+                    "y": 4
+                },
+                "whisper": "@ppiceman Hi, I would like to buy your Loath Salvation Astral Plate listed for 7 exa in Metamorph (stash tab \"items\"; position: left 4, top 5)",
+                "account": {
+                    "name": "HiImLeeSu",
+                    "lastCharacterName": "ppiceman",
+                    "online": {
+                        "league": "Metamorph"
+                    },
+                    "language": "en_US"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 7,
+                    "currency": "exa"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 3,
+                "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStr1C.png?scale=1&w=2&h=3&v=890da62b76971297e9eacccd44123e99",
+                "league": "Metamorph",
+                "influences": {
+                    "crusader": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "G",
+                        "sColour": "W"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "G",
+                        "sColour": "W"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "G",
+                        "sColour": "W"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    }
+                ],
+                "name": "Loath Salvation",
+                "typeLine": "Astral Plate",
+                "identified": true,
+                "ilvl": 100,
+                "note": "~price 7 exa",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+30%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Armour",
+                        "values": [
+                            [
+                                "1366",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 16
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "68",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Str",
+                        "values": [
+                            [
+                                "180",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1
+                    }
+                ],
+                "implicitMods": [
+                    "+12% to all Elemental Resistances",
+                    "Item sells for much more to vendors"
+                ],
+                "explicitMods": [
+                    "+340 to Armour",
+                    "Regenerate 10.6 Life per second",
+                    "+7% to Chaos Resistance",
+                    "15% increased Energy Shield Recovery rate",
+                    "Killed Enemies Explode, dealing 3% of their Life as Physical Damage"
+                ],
+                "craftedMods": [
+                    "+82 to maximum Life"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "ar": 1366,
+                    "mods": {
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2901986750",
+                                        "min": 8,
+                                        "max": 12
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "",
+                                "tier": "",
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_3513534186",
+                                        "min": 2,
+                                        "max": 2
+                                    }
+                                ]
+                            }
+                        ],
+                        "explicit": [
+                            {
+                                "name": "of the Crusade",
+                                "tier": "S1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_988575597",
+                                        "min": 12,
+                                        "max": 15
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Lost",
+                                "tier": "S6",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2923486259",
+                                        "min": 5,
+                                        "max": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Hydra",
+                                "tier": "S4",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3325883026",
+                                        "min": 10,
+                                        "max": 13
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Crusader's",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1220361974",
+                                        "min": 3,
+                                        "max": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Carapaced",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3484657501",
+                                        "min": 323,
+                                        "max": 400
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Upgraded",
+                                "tier": "R5",
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_3299347043",
+                                        "min": 71,
+                                        "max": 85
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "implicit": [
+                            [
+                                "implicit.stat_2901986750",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "implicit.stat_3513534186",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "explicit": [
+                            [
+                                "explicit.stat_3484657501",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3325883026",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2923486259",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_988575597",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1220361974",
+                                [
+                                    3
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_3299347043",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "UmFyaXR5OiBSYXJlDQpMb2F0aCBTYWx2YXRpb24NCkFzdHJhbCBQbGF0ZQ0KLS0tLS0tLS0NClF1YWxpdHk6ICszMCUgKGF1Z21lbnRlZCkNCkFybW91cjogMTM2NiAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA2OA0KU3RyOiAxODANCi0tLS0tLS0tDQpTb2NrZXRzOiBXLVItUi1XLVctUiANCi0tLS0tLS0tDQpJdGVtIExldmVsOiAxMDANCi0tLS0tLS0tDQorMTIlIHRvIGFsbCBFbGVtZW50YWwgUmVzaXN0YW5jZXMgKGltcGxpY2l0KQ0KSXRlbSBzZWxscyBmb3IgbXVjaCBtb3JlIHRvIHZlbmRvcnMgKGltcGxpY2l0KQ0KLS0tLS0tLS0NCiszNDAgdG8gQXJtb3VyDQpSZWdlbmVyYXRlIDEwLjYgTGlmZSBwZXIgc2Vjb25kDQorNyUgdG8gQ2hhb3MgUmVzaXN0YW5jZQ0KMTUlIGluY3JlYXNlZCBFbmVyZ3kgU2hpZWxkIFJlY292ZXJ5IHJhdGUNCktpbGxlZCBFbmVtaWVzIEV4cGxvZGUsIGRlYWxpbmcgMyUgb2YgdGhlaXIgTGlmZSBhcyBQaHlzaWNhbCBEYW1hZ2UNCis4MiB0byBtYXhpbXVtIExpZmUgKGNyYWZ0ZWQpDQotLS0tLS0tLQ0KQ3J1c2FkZXIgSXRlbQ0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSA3IGV4YQ0K"
+                }
+            }
+        },
+        {
+            "id": "c582265ea5fd5bb52f53405f82c5d7a5f286078db27c4112daeb96c24b883c84",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2019-12-30T21:56:47Z",
+                "stash": {
+                    "name": "Iluvskyfatass",
+                    "x": 10,
+                    "y": 5
+                },
+                "whisper": "@skysguy Hi, I would like to buy your Rapture Shroud Sharkskin Tunic listed for 7 exa in Metamorph (stash tab \"Iluvskyfatass\"; position: left 11, top 6)",
+                "account": {
+                    "name": "kay9758",
+                    "lastCharacterName": "skysguy",
+                    "online": {
+                        "league": "Metamorph"
+                    },
+                    "language": "en_US"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 7,
+                    "currency": "exa"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 3,
+                "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDex1B.png?scale=1&w=2&h=3&v=6c54a5109d16d454488c1d342c00154e",
+                "league": "Metamorph",
+                "influences": {
+                    "crusader": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    }
+                ],
+                "name": "Rapture Shroud",
+                "typeLine": "Sharkskin Tunic",
+                "identified": true,
+                "ilvl": 85,
+                "note": "~price 7 exa",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "671",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "68",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "152",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1
+                    }
+                ],
+                "explicitMods": [
+                    "+44 to maximum Life",
+                    "Regenerate 8 Life per second",
+                    "Killed Enemies Explode, dealing 3% of their Life as Physical Damage"
+                ],
+                "craftedMods": [
+                    "+20% to Fire and Cold Resistances"
+                ],
+                "frameType": 2,
+                "incubatedItem": {
+                    "name": "Stacked Decks",
+                    "level": 64,
+                    "progress": 1669,
+                    "total": 4013
+                },
+                "extended": {
+                    "ev": 671,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "of the Starfish",
+                                "tier": "S5",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3325883026",
+                                        "min": 7,
+                                        "max": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Stout",
+                                "tier": "P9",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3299347043",
+                                        "min": 40,
+                                        "max": 49
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Crusader's",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1220361974",
+                                        "min": 3,
+                                        "max": 3
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "of Craft",
+                                "tier": "R3",
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_2915988346",
+                                        "min": 17,
+                                        "max": 20
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_3299347043",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3325883026",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1220361974",
+                                [
+                                    2
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_2915988346",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "UmFyaXR5OiBSYXJlDQpSYXB0dXJlIFNocm91ZA0KU2hhcmtza2luIFR1bmljDQotLS0tLS0tLQ0KUXVhbGl0eTogKzIwJSAoYXVnbWVudGVkKQ0KRXZhc2lvbiBSYXRpbmc6IDY3MSAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA2OA0KRGV4OiAxNTINCi0tLS0tLS0tDQpTb2NrZXRzOiBHLUItRy1HLVItRyANCi0tLS0tLS0tDQpJdGVtIExldmVsOiA4NQ0KLS0tLS0tLS0NCis0NCB0byBtYXhpbXVtIExpZmUNClJlZ2VuZXJhdGUgOCBMaWZlIHBlciBzZWNvbmQNCktpbGxlZCBFbmVtaWVzIEV4cGxvZGUsIGRlYWxpbmcgMyUgb2YgdGhlaXIgTGlmZSBhcyBQaHlzaWNhbCBEYW1hZ2UNCisyMCUgdG8gRmlyZSBhbmQgQ29sZCBSZXNpc3RhbmNlcyAoY3JhZnRlZCkNCi0tLS0tLS0tDQpDcnVzYWRlciBJdGVtDQotLS0tLS0tLQ0KTm90ZTogfnByaWNlIDcgZXhhDQo="
+                }
+            }
+        },
+        {
+            "id": "e6f38df74cba3aaad9b3883e1a5538a791662594683487f9636d5fded2cef928",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2020-01-02T06:19:29Z",
+                "stash": {
+                    "name": "$",
+                    "x": 4,
+                    "y": 0
+                },
+                "whisper": "@RecoveredRenewed Hi, I would like to buy your Dusk Veil Astral Plate listed for 7 exa in Metamorph (stash tab \"$\"; position: left 5, top 1)",
+                "account": {
+                    "name": "Zmiety_Guy",
+                    "lastCharacterName": "RecoveredRenewed",
+                    "online": {
+                        "league": "Metamorph"
+                    },
+                    "language": "en_US"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 7,
+                    "currency": "exa"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 3,
+                "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStr1C.png?scale=1&w=2&h=3&v=890da62b76971297e9eacccd44123e99",
+                "league": "Metamorph",
+                "influences": {
+                    "crusader": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "G",
+                        "sColour": "W"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "G",
+                        "sColour": "W"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "G",
+                        "sColour": "W"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    }
+                ],
+                "name": "Dusk Veil",
+                "typeLine": "Astral Plate",
+                "identified": true,
+                "ilvl": 100,
+                "note": "~price 7 exa",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+30%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Armour",
+                        "values": [
+                            [
+                                "924",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 16
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "68",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Str",
+                        "values": [
+                            [
+                                "180",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1
+                    }
+                ],
+                "implicitMods": [
+                    "+12% to all Elemental Resistances"
+                ],
+                "explicitMods": [
+                    "+30 to maximum Life",
+                    "6% of Physical Damage from Hits taken as Lightning Damage",
+                    "Killed Enemies Explode, dealing 3% of their Life as Physical Damage"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "ar": 924,
+                    "mods": {
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2901986750",
+                                        "min": 8,
+                                        "max": 12
+                                    }
+                                ]
+                            }
+                        ],
+                        "explicit": [
+                            {
+                                "name": "Crusader's",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1220361974",
+                                        "min": 3,
+                                        "max": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Crusader's",
+                                "tier": "P2",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_425242359",
+                                        "min": 5,
+                                        "max": 10
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Stalwart",
+                                "tier": "P10",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3299347043",
+                                        "min": 30,
+                                        "max": 39
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "implicit": [
+                            [
+                                "implicit.stat_2901986750",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "explicit": [
+                            [
+                                "explicit.stat_3299347043",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_425242359",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1220361974",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "UmFyaXR5OiBSYXJlDQpEdXNrIFZlaWwNCkFzdHJhbCBQbGF0ZQ0KLS0tLS0tLS0NClF1YWxpdHk6ICszMCUgKGF1Z21lbnRlZCkNCkFybW91cjogOTI0IChhdWdtZW50ZWQpDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDY4DQpTdHI6IDE4MA0KLS0tLS0tLS0NClNvY2tldHM6IFctUi1SLVctVy1SIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDEwMA0KLS0tLS0tLS0NCisxMiUgdG8gYWxsIEVsZW1lbnRhbCBSZXNpc3RhbmNlcyAoaW1wbGljaXQpDQotLS0tLS0tLQ0KKzMwIHRvIG1heGltdW0gTGlmZQ0KNiUgb2YgUGh5c2ljYWwgRGFtYWdlIGZyb20gSGl0cyB0YWtlbiBhcyBMaWdodG5pbmcgRGFtYWdlDQpLaWxsZWQgRW5lbWllcyBFeHBsb2RlLCBkZWFsaW5nIDMlIG9mIHRoZWlyIExpZmUgYXMgUGh5c2ljYWwgRGFtYWdlDQotLS0tLS0tLQ0KQ3J1c2FkZXIgSXRlbQ0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSA3IGV4YQ0K"
+                }
+            }
+        },
+        {
+            "id": "6d9b9fba105271ca63c6c227b30995924a511175abec9e47c5b78f0d016629a2",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2020-01-02T01:06:46Z",
+                "stash": {
+                    "name": "11",
+                    "x": 2,
+                    "y": 0
+                },
+                "whisper": "@dolboebs Hi, I would like to buy your Dragon Mantle Blood Raiment listed for 8 exa in Metamorph (stash tab \"11\"; position: left 3, top 1)",
+                "account": {
+                    "name": "vovz0r",
+                    "lastCharacterName": "dolboebs",
+                    "online": {
+                        "league": "Metamorph"
+                    },
+                    "language": "en_US"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 8,
+                    "currency": "exa"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 3,
+                "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDexInt1C.png?scale=1&w=2&h=3&v=58c31e9c01e3395af3661627cabc0db5",
+                "league": "Metamorph",
+                "influences": {
+                    "crusader": true,
+                    "hunter": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    }
+                ],
+                "name": "Dragon Mantle",
+                "typeLine": "Blood Raiment",
+                "identified": true,
+                "ilvl": 85,
+                "note": "~price 8 exa",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "562",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "90",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "68",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "107",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "90",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1
+                    }
+                ],
+                "explicitMods": [
+                    "+27 to Dexterity",
+                    "9% increased Evasion and Energy Shield",
+                    "6% increased Stun and Block Recovery",
+                    "You can apply an additional Curse",
+                    "Killed Enemies Explode, dealing 3% of their Life as Physical Damage"
+                ],
+                "craftedMods": [
+                    "+11 to all Attributes"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "ev": 562,
+                    "es": 90,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "Hunter's",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_30642521",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Crusader's",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1220361974",
+                                        "min": 3,
+                                        "max": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Mosquito's",
+                                "tier": "P6",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1999113824",
+                                        "min": 6,
+                                        "max": 13
+                                    },
+                                    {
+                                        "hash": "explicit.stat_2511217560",
+                                        "min": 6,
+                                        "max": 7
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Falcon",
+                                "tier": "S6",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3261801346",
+                                        "min": 23,
+                                        "max": 27
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "of Craft",
+                                "tier": "R2",
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_1379411836",
+                                        "min": 10,
+                                        "max": 13
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_3261801346",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1999113824",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511217560",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_30642521",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1220361974",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_1379411836",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "UmFyaXR5OiBSYXJlDQpEcmFnb24gTWFudGxlDQpCbG9vZCBSYWltZW50DQotLS0tLS0tLQ0KUXVhbGl0eTogKzIwJSAoYXVnbWVudGVkKQ0KRXZhc2lvbiBSYXRpbmc6IDU2MiAoYXVnbWVudGVkKQ0KRW5lcmd5IFNoaWVsZDogOTAgKGF1Z21lbnRlZCkNCi0tLS0tLS0tDQpSZXF1aXJlbWVudHM6DQpMZXZlbDogNjgNCkRleDogMTA3DQpJbnQ6IDkwDQotLS0tLS0tLQ0KU29ja2V0czogRy1CLUItUi1HLUcgDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogODUNCi0tLS0tLS0tDQorMjcgdG8gRGV4dGVyaXR5DQo5JSBpbmNyZWFzZWQgRXZhc2lvbiBhbmQgRW5lcmd5IFNoaWVsZA0KNiUgaW5jcmVhc2VkIFN0dW4gYW5kIEJsb2NrIFJlY292ZXJ5DQpZb3UgY2FuIGFwcGx5IGFuIGFkZGl0aW9uYWwgQ3Vyc2UNCktpbGxlZCBFbmVtaWVzIEV4cGxvZGUsIGRlYWxpbmcgMyUgb2YgdGhlaXIgTGlmZSBhcyBQaHlzaWNhbCBEYW1hZ2UNCisxMSB0byBhbGwgQXR0cmlidXRlcyAoY3JhZnRlZCkNCi0tLS0tLS0tDQpDcnVzYWRlciBJdGVtDQpIdW50ZXIgSXRlbQ0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSA4IGV4YQ0K"
+                }
+            }
+        },
+        {
+            "id": "eeb3d00689b49d11daa9409f30ef60198098a90eac80ad33223889288fc74a4b",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2020-01-02T06:21:53Z",
+                "stash": {
+                    "name": "C",
+                    "x": 19,
+                    "y": 11
+                },
+                "whisper": "@MOR_ninetySevenPixels Hi, I would like to buy your Grim Suit Glorious Leather listed for 8 exa in Metamorph (stash tab \"C\"; position: left 20, top 12)",
+                "account": {
+                    "name": "kakaka28396",
+                    "lastCharacterName": "MOR_ninetySevenPixels",
+                    "online": {
+                        "league": "Metamorph"
+                    },
+                    "language": "en_US"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 8,
+                    "currency": "exa"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 3,
+                "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDex1C.png?scale=1&w=2&h=3&v=b7e43accd0d753c6edc393121dad415e",
+                "league": "Metamorph",
+                "influences": {
+                    "crusader": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    }
+                ],
+                "name": "Grim Suit",
+                "typeLine": "Glorious Leather",
+                "identified": true,
+                "ilvl": 85,
+                "note": "~price 8 exa",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "541",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "68",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "124",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1
+                    }
+                ],
+                "explicitMods": [
+                    "Killed Enemies Explode, dealing 3% of their Life as Physical Damage"
+                ],
+                "craftedMods": [
+                    "Can have up to 3 Crafted Modifiers",
+                    "+82 to maximum Life",
+                    "Gain 10% of Maximum Life as Extra Maximum Energy Shield"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "ev": 541,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "Crusader's",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1220361974",
+                                        "min": 3,
+                                        "max": 3
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "of Crafting",
+                                "tier": "S",
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_1859333175",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Upgraded",
+                                "tier": "R5",
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_3299347043",
+                                        "min": 71,
+                                        "max": 85
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Gravicius'",
+                                "tier": "R3",
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_67280387",
+                                        "min": 9,
+                                        "max": 10
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_1220361974",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_1859333175",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "crafted.stat_3299347043",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "crafted.stat_67280387",
+                                [
+                                    2
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "UmFyaXR5OiBSYXJlDQpHcmltIFN1aXQNCkdsb3Jpb3VzIExlYXRoZXINCi0tLS0tLS0tDQpRdWFsaXR5OiArMjAlIChhdWdtZW50ZWQpDQpFdmFzaW9uIFJhdGluZzogNTQxIChhdWdtZW50ZWQpDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDY4DQpEZXg6IDEyNA0KLS0tLS0tLS0NClNvY2tldHM6IEctUi1HLUItRy1CIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDg1DQotLS0tLS0tLQ0KS2lsbGVkIEVuZW1pZXMgRXhwbG9kZSwgZGVhbGluZyAzJSBvZiB0aGVpciBMaWZlIGFzIFBoeXNpY2FsIERhbWFnZQ0KQ2FuIGhhdmUgdXAgdG8gMyBDcmFmdGVkIE1vZGlmaWVycyAoY3JhZnRlZCkNCis4MiB0byBtYXhpbXVtIExpZmUgKGNyYWZ0ZWQpDQpHYWluIDEwJSBvZiBNYXhpbXVtIExpZmUgYXMgRXh0cmEgTWF4aW11bSBFbmVyZ3kgU2hpZWxkIChjcmFmdGVkKQ0KLS0tLS0tLS0NCkNydXNhZGVyIEl0ZW0NCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgOCBleGENCg=="
+                }
+            }
+        },
+        {
+            "id": "b0fbb21a7b610bb50a8e85f7e9800cb6b99a6af89b19c493c0b908d8189a28bc",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2020-01-01T20:43:51Z",
+                "stash": {
+                    "name": "$$$",
+                    "x": 7,
+                    "y": 9
+                },
+                "whisper": "@JouricTS Hi, I would like to buy your Vortex Sanctuary Sadist Garb listed for 9.9 exa in Metamorph (stash tab \"$$$\"; position: left 8, top 10)",
+                "account": {
+                    "name": "Jouric",
+                    "lastCharacterName": "JouricTS",
+                    "online": {
+                        "league": "Metamorph"
+                    },
+                    "language": "en_US"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 9.9,
+                    "currency": "exa"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 3,
+                "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDexInt2C.png?scale=1&w=2&h=3&v=a0e589c9975ee5fe5bc4845f9c81a516",
+                "league": "Metamorph",
+                "influences": {
+                    "crusader": true,
+                    "hunter": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    }
+                ],
+                "name": "Vortex Sanctuary",
+                "typeLine": "Sadist Garb",
+                "identified": true,
+                "ilvl": 100,
+                "note": "~price 9.9 exa",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+28%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "547",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "113",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "68",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "103",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "109",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1
+                    }
+                ],
+                "explicitMods": [
+                    "+37 to Dexterity",
+                    "+6% to Fire Resistance",
+                    "19% increased Stun and Block Recovery",
+                    "You can apply an additional Curse",
+                    "Reflects 17 Physical Damage to Melee Attackers",
+                    "Killed Enemies Explode, dealing 3% of their Life as Physical Damage"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "ev": 547,
+                    "es": 113,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "Crusader's",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1220361974",
+                                        "min": 3,
+                                        "max": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Hunter's",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_30642521",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Barbed",
+                                "tier": "P2",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3767873853",
+                                        "min": 11,
+                                        "max": 24
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of Iron Skin",
+                                "tier": "S4",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_2511217560",
+                                        "min": 17,
+                                        "max": 19
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Whelpling",
+                                "tier": "S8",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3372524247",
+                                        "min": 6,
+                                        "max": 11
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Leopard",
+                                "tier": "S4",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3261801346",
+                                        "min": 33,
+                                        "max": 37
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_3261801346",
+                                [
+                                    5
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3372524247",
+                                [
+                                    4
+                                ]
+                            ],
+                            [
+                                "explicit.stat_2511217560",
+                                [
+                                    3
+                                ]
+                            ],
+                            [
+                                "explicit.stat_30642521",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_3767873853",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1220361974",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "UmFyaXR5OiBSYXJlDQpWb3J0ZXggU2FuY3R1YXJ5DQpTYWRpc3QgR2FyYg0KLS0tLS0tLS0NClF1YWxpdHk6ICsyOCUgKGF1Z21lbnRlZCkNCkV2YXNpb24gUmF0aW5nOiA1NDcgKGF1Z21lbnRlZCkNCkVuZXJneSBTaGllbGQ6IDExMyAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA2OA0KRGV4OiAxMDMNCkludDogMTA5DQotLS0tLS0tLQ0KU29ja2V0czogQi1CLUctQi1CLUIgDQotLS0tLS0tLQ0KSXRlbSBMZXZlbDogMTAwDQotLS0tLS0tLQ0KKzM3IHRvIERleHRlcml0eQ0KKzYlIHRvIEZpcmUgUmVzaXN0YW5jZQ0KMTklIGluY3JlYXNlZCBTdHVuIGFuZCBCbG9jayBSZWNvdmVyeQ0KWW91IGNhbiBhcHBseSBhbiBhZGRpdGlvbmFsIEN1cnNlDQpSZWZsZWN0cyAxNyBQaHlzaWNhbCBEYW1hZ2UgdG8gTWVsZWUgQXR0YWNrZXJzDQpLaWxsZWQgRW5lbWllcyBFeHBsb2RlLCBkZWFsaW5nIDMlIG9mIHRoZWlyIExpZmUgYXMgUGh5c2ljYWwgRGFtYWdlDQotLS0tLS0tLQ0KQ3J1c2FkZXIgSXRlbQ0KSHVudGVyIEl0ZW0NCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgOS45IGV4YQ0K"
+                }
+            }
+        },
+        {
+            "id": "01d44265aba4a8c6a8c801dde7fae77e492a8ca13b4a583d19204901c8de01ef",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2020-01-01T13:29:00Z",
+                "stash": {
+                    "name": "$",
+                    "x": 10,
+                    "y": 5
+                },
+                "whisper": "@\u3139\u3141\u3139\u3141\u314b\u314b\u314b Hi, I would like to buy your Brimstone Salvation Glorious Plate listed for 10 exa in Metamorph (stash tab \"$\"; position: left 11, top 6)",
+                "account": {
+                    "name": "TranceFamily",
+                    "lastCharacterName": "\u3139\u3141\u3139\u3141\u314b\u314b\u314b",
+                    "online": {
+                        "league": "Metamorph"
+                    },
+                    "language": "en_US"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 10,
+                    "currency": "exa"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 3,
+                "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStr3C.png?scale=1&w=2&h=3&v=6bbdcc26e9e31b2cf79a6f0fecdf573f",
+                "league": "Metamorph",
+                "influences": {
+                    "crusader": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    }
+                ],
+                "name": "Brimstone Salvation",
+                "typeLine": "Glorious Plate",
+                "identified": true,
+                "ilvl": 85,
+                "note": "~price 10 exa",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Armour",
+                        "values": [
+                            [
+                                "1148",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 16
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "68",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Str",
+                        "values": [
+                            [
+                                "191",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1
+                    }
+                ],
+                "explicitMods": [
+                    "28% increased Armour",
+                    "Killed Enemies Explode, dealing 3% of their Life as Physical Damage"
+                ],
+                "craftedMods": [
+                    "+75 to maximum Life"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "ar": 1148,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "Crusader's",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1220361974",
+                                        "min": 3,
+                                        "max": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Layered",
+                                "tier": "P7",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1062208444",
+                                        "min": 27,
+                                        "max": 42
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Upgraded",
+                                "tier": "R5",
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_3299347043",
+                                        "min": 71,
+                                        "max": 85
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_1062208444",
+                                [
+                                    1
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1220361974",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_3299347043",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "UmFyaXR5OiBSYXJlDQpCcmltc3RvbmUgU2FsdmF0aW9uDQpHbG9yaW91cyBQbGF0ZQ0KLS0tLS0tLS0NClF1YWxpdHk6ICsyMCUgKGF1Z21lbnRlZCkNCkFybW91cjogMTE0OCAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA2OA0KU3RyOiAxOTENCi0tLS0tLS0tDQpTb2NrZXRzOiBCLVItUi1SLVItQiANCi0tLS0tLS0tDQpJdGVtIExldmVsOiA4NQ0KLS0tLS0tLS0NCjI4JSBpbmNyZWFzZWQgQXJtb3VyDQpLaWxsZWQgRW5lbWllcyBFeHBsb2RlLCBkZWFsaW5nIDMlIG9mIHRoZWlyIExpZmUgYXMgUGh5c2ljYWwgRGFtYWdlDQorNzUgdG8gbWF4aW11bSBMaWZlIChjcmFmdGVkKQ0KLS0tLS0tLS0NCkNydXNhZGVyIEl0ZW0NCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgMTAgZXhhDQo="
+                }
+            }
+        },
+        {
+            "id": "ec226100aa5776008fa62f5ce084720dea4e039e401231ce651d07d4014d9df3",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2019-12-31T04:56:56Z",
+                "stash": {
+                    "name": "sale",
+                    "x": 4,
+                    "y": 1
+                },
+                "whisper": "@BloodDiamond Hi, I would like to buy your Oblivion Shell Blood Raiment listed for 10 exa in Metamorph (stash tab \"sale\"; position: left 5, top 2)",
+                "account": {
+                    "name": "Thames",
+                    "lastCharacterName": "BloodDiamond",
+                    "online": {
+                        "league": "Metamorph"
+                    },
+                    "language": "en_US"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 10,
+                    "currency": "exa"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 3,
+                "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDexInt1C.png?scale=1&w=2&h=3&v=58c31e9c01e3395af3661627cabc0db5",
+                "league": "Metamorph",
+                "influences": {
+                    "crusader": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    }
+                ],
+                "name": "Oblivion Shell",
+                "typeLine": "Blood Raiment",
+                "identified": true,
+                "ilvl": 85,
+                "note": "~price 10 exa",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "523",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "84",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "68",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "107",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "90",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1
+                    }
+                ],
+                "explicitMods": [
+                    "Regenerate 1.8 Life per second",
+                    "You have Consecrated Ground around you while stationary",
+                    "Killed Enemies Explode, dealing 3% of their Life as Physical Damage"
+                ],
+                "craftedMods": [
+                    "+69 to maximum Life"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "ev": 523,
+                    "es": 84,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "Crusader's",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_880970200",
+                                        "min": 18,
+                                        "max": 18
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Crusader's",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1220361974",
+                                        "min": 3,
+                                        "max": 3
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "of the Newt",
+                                "tier": "S8",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_3325883026",
+                                        "min": 1,
+                                        "max": 2
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Upgraded",
+                                "tier": "R4",
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_3299347043",
+                                        "min": 56,
+                                        "max": 70
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_3325883026",
+                                [
+                                    2
+                                ]
+                            ],
+                            [
+                                "explicit.stat_880970200",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1220361974",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_3299347043",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "UmFyaXR5OiBSYXJlDQpPYmxpdmlvbiBTaGVsbA0KQmxvb2QgUmFpbWVudA0KLS0tLS0tLS0NClF1YWxpdHk6ICsyMCUgKGF1Z21lbnRlZCkNCkV2YXNpb24gUmF0aW5nOiA1MjMgKGF1Z21lbnRlZCkNCkVuZXJneSBTaGllbGQ6IDg0IChhdWdtZW50ZWQpDQotLS0tLS0tLQ0KUmVxdWlyZW1lbnRzOg0KTGV2ZWw6IDY4DQpEZXg6IDEwNw0KSW50OiA5MA0KLS0tLS0tLS0NClNvY2tldHM6IEItQi1CLUItQi1CIA0KLS0tLS0tLS0NCkl0ZW0gTGV2ZWw6IDg1DQotLS0tLS0tLQ0KUmVnZW5lcmF0ZSAxLjggTGlmZSBwZXIgc2Vjb25kDQpZb3UgaGF2ZSBDb25zZWNyYXRlZCBHcm91bmQgYXJvdW5kIHlvdSB3aGlsZSBzdGF0aW9uYXJ5DQpLaWxsZWQgRW5lbWllcyBFeHBsb2RlLCBkZWFsaW5nIDMlIG9mIHRoZWlyIExpZmUgYXMgUGh5c2ljYWwgRGFtYWdlDQorNjkgdG8gbWF4aW11bSBMaWZlIChjcmFmdGVkKQ0KLS0tLS0tLS0NCkNydXNhZGVyIEl0ZW0NCi0tLS0tLS0tDQpOb3RlOiB+cHJpY2UgMTAgZXhhDQo="
+                }
+            }
+        },
+        {
+            "id": "5cb243088af156b65d1380b15f1e9146c2b540c02ad7db3a00c15c70fed443c1",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2020-01-01T02:44:11Z",
+                "stash": {
+                    "name": "18",
+                    "x": 9,
+                    "y": 10
+                },
+                "whisper": "@Headhunter_Abuser Hi, I would like to buy your Pain Shroud Assassin's Garb listed for 10 exa in Metamorph (stash tab \"18\"; position: left 10, top 11)",
+                "account": {
+                    "name": "yungleanmoney3",
+                    "lastCharacterName": "Headhunter_Abuser",
+                    "online": {
+                        "league": "Metamorph"
+                    },
+                    "language": "en_US"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 10,
+                    "currency": "exa"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 3,
+                "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyDex2C.png?scale=1&w=2&h=3&v=b03b38ea29d4757b2578adea2a86115d",
+                "league": "Metamorph",
+                "influences": {
+                    "crusader": true,
+                    "hunter": true
+                },
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "S",
+                        "sColour": "R"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    }
+                ],
+                "name": "Pain Shroud",
+                "typeLine": "Assassin's Garb",
+                "identified": true,
+                "ilvl": 100,
+                "note": "~price 10 exa",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+24%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Evasion Rating",
+                        "values": [
+                            [
+                                "914",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 17
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "68",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Dex",
+                        "values": [
+                            [
+                                "183",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1
+                    }
+                ],
+                "implicitMods": [
+                    "3% increased Movement Speed"
+                ],
+                "explicitMods": [
+                    "Killed Enemies Explode, dealing 3% of their Life as Physical Damage"
+                ],
+                "craftedMods": [
+                    "6% increased maximum Life",
+                    "6% increased maximum Mana"
+                ],
+                "frameType": 2,
+                "incubatedItem": {
+                    "name": "Scarab Item",
+                    "level": 68,
+                    "progress": 6194,
+                    "total": 9030
+                },
+                "extended": {
+                    "ev": 914,
+                    "mods": {
+                        "implicit": [
+                            {
+                                "name": "",
+                                "tier": "",
+                                "magnitudes": [
+                                    {
+                                        "hash": "implicit.stat_2250533757",
+                                        "min": 3,
+                                        "max": 3
+                                    }
+                                ]
+                            }
+                        ],
+                        "explicit": [
+                            {
+                                "name": "Crusader's",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1220361974",
+                                        "min": 3,
+                                        "max": 3
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "Chosen",
+                                "tier": "P",
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_983749596",
+                                        "min": 5,
+                                        "max": 8
+                                    },
+                                    {
+                                        "hash": "crafted.stat_2748665614",
+                                        "min": 5,
+                                        "max": 8
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "implicit": [
+                            [
+                                "implicit.stat_2250533757",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "explicit": [
+                            [
+                                "explicit.stat_1220361974",
+                                [
+                                    0
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_983749596",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "crafted.stat_2748665614",
+                                [
+                                    0
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "UmFyaXR5OiBSYXJlDQpQYWluIFNocm91ZA0KQXNzYXNzaW4ncyBHYXJiDQotLS0tLS0tLQ0KUXVhbGl0eTogKzI0JSAoYXVnbWVudGVkKQ0KRXZhc2lvbiBSYXRpbmc6IDkxNCAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA2OA0KRGV4OiAxODMNCi0tLS0tLS0tDQpTb2NrZXRzOiBSLUctUi1HLUItRyANCi0tLS0tLS0tDQpJdGVtIExldmVsOiAxMDANCi0tLS0tLS0tDQozJSBpbmNyZWFzZWQgTW92ZW1lbnQgU3BlZWQgKGltcGxpY2l0KQ0KLS0tLS0tLS0NCktpbGxlZCBFbmVtaWVzIEV4cGxvZGUsIGRlYWxpbmcgMyUgb2YgdGhlaXIgTGlmZSBhcyBQaHlzaWNhbCBEYW1hZ2UNCjYlIGluY3JlYXNlZCBtYXhpbXVtIExpZmUgKGNyYWZ0ZWQpDQo2JSBpbmNyZWFzZWQgbWF4aW11bSBNYW5hIChjcmFmdGVkKQ0KLS0tLS0tLS0NCkNydXNhZGVyIEl0ZW0NCkh1bnRlciBJdGVtDQotLS0tLS0tLQ0KTm90ZTogfnByaWNlIDEwIGV4YQ0K"
+                }
+            }
+        },
+        {
+            "id": "83394f7cff904f653bc817c27a3504736ba60d4b99bf3a68d39419239384857b",
+            "listing": {
+                "method": "psapi",
+                "indexed": "2020-01-01T17:40:28Z",
+                "stash": {
+                    "name": "ll",
+                    "x": 16,
+                    "y": 6
+                },
+                "whisper": "@TwitchTVgodlevelaccount Hi, I would like to buy your Damnation Guardian Vaal Regalia listed for 10 exa in Metamorph (stash tab \"ll\"; position: left 17, top 7)",
+                "account": {
+                    "name": "GodLevelAccount",
+                    "lastCharacterName": "TwitchTVgodlevelaccount",
+                    "online": {
+                        "league": "Metamorph"
+                    },
+                    "language": "en_US"
+                },
+                "price": {
+                    "type": "~price",
+                    "amount": 10,
+                    "currency": "exa"
+                }
+            },
+            "item": {
+                "verified": true,
+                "w": 2,
+                "h": 3,
+                "icon": "https:\/\/web.poecdn.com\/image\/Art\/2DItems\/Armours\/BodyArmours\/BodyStrDexInt1C.png?scale=1&w=2&h=3&elder=1&v=5a4eb9d863bef835aa3d9cc9224f51a5",
+                "league": "Metamorph",
+                "influences": {
+                    "elder": true,
+                    "crusader": true
+                },
+                "elder": true,
+                "sockets": [
+                    {
+                        "group": 0,
+                        "attr": "D",
+                        "sColour": "G"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    },
+                    {
+                        "group": 0,
+                        "attr": "I",
+                        "sColour": "B"
+                    }
+                ],
+                "name": "Damnation Guardian",
+                "typeLine": "Vaal Regalia",
+                "identified": true,
+                "ilvl": 85,
+                "note": "~price 10 exa",
+                "properties": [
+                    {
+                        "name": "Quality",
+                        "values": [
+                            [
+                                "+20%",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 6
+                    },
+                    {
+                        "name": "Energy Shield",
+                        "values": [
+                            [
+                                "254",
+                                1
+                            ]
+                        ],
+                        "displayMode": 0,
+                        "type": 18
+                    }
+                ],
+                "requirements": [
+                    {
+                        "name": "Level",
+                        "values": [
+                            [
+                                "68",
+                                0
+                            ]
+                        ],
+                        "displayMode": 0
+                    },
+                    {
+                        "name": "Int",
+                        "values": [
+                            [
+                                "194",
+                                0
+                            ]
+                        ],
+                        "displayMode": 1
+                    }
+                ],
+                "explicitMods": [
+                    "36% increased Energy Shield",
+                    "Killed Enemies Explode, dealing 3% of their Life as Physical Damage"
+                ],
+                "craftedMods": [
+                    "Can have up to 3 Crafted Modifiers",
+                    "Gain 10% of Maximum Life as Extra Maximum Energy Shield"
+                ],
+                "frameType": 2,
+                "extended": {
+                    "es": 254,
+                    "mods": {
+                        "explicit": [
+                            {
+                                "name": "Strong-Willed",
+                                "tier": "P7",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_4015621042",
+                                        "min": 27,
+                                        "max": 42
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Crusader's",
+                                "tier": "P1",
+                                "magnitudes": [
+                                    {
+                                        "hash": "explicit.stat_1220361974",
+                                        "min": 3,
+                                        "max": 3
+                                    }
+                                ]
+                            }
+                        ],
+                        "crafted": [
+                            {
+                                "name": "of Crafting",
+                                "tier": "S",
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_1859333175",
+                                        "min": 1,
+                                        "max": 1
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Gravicius'",
+                                "tier": "R3",
+                                "magnitudes": [
+                                    {
+                                        "hash": "crafted.stat_67280387",
+                                        "min": 9,
+                                        "max": 10
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "hashes": {
+                        "explicit": [
+                            [
+                                "explicit.stat_4015621042",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "explicit.stat_1220361974",
+                                [
+                                    1
+                                ]
+                            ]
+                        ],
+                        "crafted": [
+                            [
+                                "crafted.stat_1859333175",
+                                [
+                                    0
+                                ]
+                            ],
+                            [
+                                "crafted.stat_67280387",
+                                [
+                                    1
+                                ]
+                            ]
+                        ]
+                    },
+                    "text": "UmFyaXR5OiBSYXJlDQpEYW1uYXRpb24gR3VhcmRpYW4NClZhYWwgUmVnYWxpYQ0KLS0tLS0tLS0NClF1YWxpdHk6ICsyMCUgKGF1Z21lbnRlZCkNCkVuZXJneSBTaGllbGQ6IDI1NCAoYXVnbWVudGVkKQ0KLS0tLS0tLS0NClJlcXVpcmVtZW50czoNCkxldmVsOiA2OA0KSW50OiAxOTQNCi0tLS0tLS0tDQpTb2NrZXRzOiBHLUItQi1CLUItQiANCi0tLS0tLS0tDQpJdGVtIExldmVsOiA4NQ0KLS0tLS0tLS0NCjM2JSBpbmNyZWFzZWQgRW5lcmd5IFNoaWVsZA0KS2lsbGVkIEVuZW1pZXMgRXhwbG9kZSwgZGVhbGluZyAzJSBvZiB0aGVpciBMaWZlIGFzIFBoeXNpY2FsIERhbWFnZQ0KQ2FuIGhhdmUgdXAgdG8gMyBDcmFmdGVkIE1vZGlmaWVycyAoY3JhZnRlZCkNCkdhaW4gMTAlIG9mIE1heGltdW0gTGlmZSBhcyBFeHRyYSBNYXhpbXVtIEVuZXJneSBTaGllbGQgKGNyYWZ0ZWQpDQotLS0tLS0tLQ0KRWxkZXIgSXRlbQ0KQ3J1c2FkZXIgSXRlbQ0KLS0tLS0tLS0NCk5vdGU6IH5wcmljZSAxMCBleGENCg=="
+                }
+            }
+        }
+    ]
+}

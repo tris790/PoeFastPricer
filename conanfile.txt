@@ -1,0 +1,10 @@
+[requires]
+nlohmann_json/3.7.3
+libcurl/7.67.0
+
+[options]
+libcurl:with_winssl = True
+libcurl:with_openssl = False
+
+[generators]
+cmake
