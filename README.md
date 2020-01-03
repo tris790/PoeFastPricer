@@ -5,7 +5,7 @@ It's time to ditch the old pricecheck macro!
 ## Getting Started
 
 Simply follow the installing section and execute the binary.
-![PriceCheck]()
+![PoeFastPricer1](https://user-images.githubusercontent.com/16129167/71721995-4c62c400-2df5-11ea-9956-5722a812e23f.png)
 
 ### Keybinds
 
