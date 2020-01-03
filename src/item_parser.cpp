@@ -40,6 +40,9 @@ items::base_item* items::get_item_from_clipboard()
 		token = strtok(nullptr, delim);
 	}
 
+	if (lines.size() < 2)
+		return NULL;
+
 	std::string rarity = lines.at(0).substr(std::string("Rarity: ").length());
 	std::string name = lines.at(1);
 
