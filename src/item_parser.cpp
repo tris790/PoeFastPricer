@@ -4,6 +4,9 @@
 
 items::unique_item items::get_item_from_clipboard()
 {
+	std::string backup_clip;
+	get_clipboard(backup_clip);
+
 	fake_ctrl_c();
 	std::string clip;
 	get_clipboard(clip);
@@ -20,5 +23,6 @@ items::unique_item items::get_item_from_clipboard()
 	items::unique_item item;
 	item.name = lines.at(1);
 	item.type = lines.at(2);
+	set_clipboard(backup_clip);
 	return item;
 }
