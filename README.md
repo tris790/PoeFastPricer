@@ -6,6 +6,7 @@ It's time to ditch the old pricecheck macro!
 
 Simply follow the installing section and execute the binary.
 ![PoeFastPricer1](https://user-images.githubusercontent.com/16129167/71721995-4c62c400-2df5-11ea-9956-5722a812e23f.png)
+![PoeFastPricer2](https://user-images.githubusercontent.com/16129167/71722048-7e742600-2df5-11ea-87e6-ffda1502ffce.png)
 
 ### Keybinds
 
