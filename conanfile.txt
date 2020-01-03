@@ -1,6 +1,8 @@
 [requires]
 nlohmann_json/3.7.3
 libcurl/7.67.0
+glew/2.1.0@bincrafters/stable
+glfw/3.3@bincrafters/stable
 
 [options]
 libcurl:with_winssl = True

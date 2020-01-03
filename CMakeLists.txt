@@ -18,5 +18,7 @@ add_executable (poefastpricer
     src/clipboard.cpp
     src/item_parser.h
     src/item_parser.cpp
+    src/nuklear.h
+    src/stb_image.h
 )
 target_link_libraries(poefastpricer ${CONAN_LIBS})
