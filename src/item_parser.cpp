@@ -4,11 +4,12 @@
 
 items::unique_item items::get_item_from_clipboard()
 {
+	fake_ctrl_c();
 	std::string clip;
 	get_clipboard(clip);
 	std::vector<std::string> lines;
-	
-	auto delim = "\r\n";
+
+	char* delim = "\r\n";
 	char* token = strtok(const_cast<char*>(clip.c_str()), delim);
 	while (token != nullptr)
 	{

@@ -70,7 +70,6 @@ void get_price_listings(const poerequest::overview& overview, poerequest::result
 	ss << "?query=" + overview.id;
 
 	std::string url = ss.str();
-	std::cout << url << std::endl;
 	CURL *curl;
 	CURLcode res;
 	curl = curl_easy_init();
