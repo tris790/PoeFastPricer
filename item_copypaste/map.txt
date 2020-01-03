@@ -1,0 +1,12 @@
+Rarity: Normal
+Beach Map
+--------
+Map Tier: 1
+--------
+Item Level: 74
+--------
+Travel to this Map by using it in a personal Map Device. Maps can only be used once.
+
+
+
+{"query":{"status":{"option":"online"},"type":{"option":"Beach Map","discriminator":"warfortheatlas"},"stats":[{"type":"and","filters":[],"disabled":false}]},"sort":{"price":"asc"}}

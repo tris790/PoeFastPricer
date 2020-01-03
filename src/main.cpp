@@ -360,7 +360,7 @@ void calculate_window_position(int win_width, int win_height, int* x, int* y)
 	*y = cursor.y + (cursor.y < mode->height / 2 ? 0 : -win_height);
 }
 
-void run_display(items::unique_item item, poerequest::result_listing listings)
+void run_display(items::base_item* item, poerequest::result_listing listings)
 {
 	/* Platform */
 	int width = 300;
@@ -465,7 +465,7 @@ void run_display(items::unique_item item, poerequest::result_listing listings)
 		/* GUI */
 		{
 			struct nk_panel layout, tab;
-			std::string full_item_name = item.name + " " + item.type;
+			std::string full_item_name = item->name;
 			if (nk_begin(&ctx, full_item_name.c_str(), nk_rect(0, 0, width, height),
 				NK_WINDOW_TITLE))
 			{
@@ -507,8 +507,8 @@ void run_hotkey()
 	bool isPathOfExile = poe == std::string(window_title);
 	if (isPathOfExile)
 	{
-		items::unique_item item = items::get_item_from_clipboard();
-		std::cout << "Pricing: " << item.name << " " << item.type << std::endl;
+		items::base_item* item = items::get_item_from_clipboard();
+		std::cout << "Pricing: " << item->name << std::endl;
 
 		poerequest::overview overview;
 		get_overview(League, item, overview);

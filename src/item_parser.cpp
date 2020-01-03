@@ -2,7 +2,26 @@
 #include "clipboard.h"
 #include <sstream>
 
-items::unique_item items::get_item_from_clipboard()
+#include "items/unique_item.h"
+#include "items/currency_item.h"
+
+static enum RarityEnum {
+	Normal,
+	Magic,
+	Rare,
+	Unique,
+	Currency
+};
+
+static std::map<std::string, RarityEnum> s_mapStringValues = 
+{
+	{"Normal", RarityEnum::Normal},
+	{"Magic", RarityEnum::Magic},
+	{"Rare", RarityEnum::Rare},
+	{"Unique", RarityEnum::Unique},
+	{"Currency", RarityEnum::Currency}
+};
+items::base_item* items::get_item_from_clipboard()
 {
 	std::string backup_clip;
 	get_clipboard(backup_clip);
@@ -20,9 +39,42 @@ items::unique_item items::get_item_from_clipboard()
 		token = strtok(nullptr, delim);
 	}
 
-	items::unique_item item;
-	item.name = lines.at(1);
-	item.type = lines.at(2);
+	std::string rarity = lines.at(0).substr(std::string("Rarity: ").length());
+
+	base_item* item = NULL;
+	switch (s_mapStringValues[rarity])
+	{
+	case RarityEnum::Normal:
+	{
+		break;
+	}
+	case RarityEnum::Magic:
+	{
+		break;
+	}
+	case RarityEnum::Rare:
+	{
+		break;
+	}
+	case RarityEnum::Unique:
+	{
+		item = new unique_item(lines.at(1), lines.at(2), "69", {}, {});
+		break;
+	}
+	case RarityEnum::Currency:
+	{
+		auto quantity = std::find_if(lines.begin(), lines.end(),
+			[](std::string line) { return line.find("Stack Size", 0) != std::string::npos; });
+
+		item = new currency_item(lines.at(1), *quantity);
+		break;
+	}
+	default: {
+		throw("Unknown type");
+
+	}
+	}
+
 	set_clipboard(backup_clip);
 	return item;
 }

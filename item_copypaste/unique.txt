@@ -1,0 +1,25 @@
+Rarity: Unique
+Headhunter
+Leather Belt
+--------
+Requirements:
+Level: 40
+--------
+Item Level: 40
+--------
++30 to maximum Life (implicit)
+--------
++54 to Strength
++51 to Dexterity
++56 to maximum Life
+23% increased Damage with Hits against Rare monsters
+When you Kill a Rare monster, you gain its Modifiers for 20 seconds
+--------
+"A man's soul rules from a cavern of bone, learns and
+judges through flesh-born windows. The heart is meat.
+The head is where the Man is."
+- Lavianga, Advisor to Kaom
+
+
+
+{"query":{"status":{"option":"online"},"name":"Headhunter","type":"Leather Belt","stats":[{"type":"and","filters":[],"disabled":false}]},"sort":{"price":"asc"}}

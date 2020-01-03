@@ -2,15 +2,10 @@
 #define item_parser_h
 #include <nlohmann/json.hpp>
 using json = nlohmann::json;
+#include "items/base_item.h"
 
 namespace items
 {
-	struct unique_item
-	{
-		std::string type;
-		std::string name;
-	};
-
-	unique_item get_item_from_clipboard();
+	base_item* get_item_from_clipboard();
 } // namespace poerequest
 #endif

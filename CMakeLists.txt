@@ -20,5 +20,10 @@ add_executable (poefastpricer
     src/item_parser.cpp
     src/nuklear.h
     src/stb_image.h
+    src/items/base_item.h
+    src/items/unique_item.h
+    src/items/unique_item.cpp
+    src/items/currency_item.h
+    src/items/currency_item.cpp
 )
 target_link_libraries(poefastpricer ${CONAN_LIBS})

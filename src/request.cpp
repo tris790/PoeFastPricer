@@ -12,7 +12,7 @@ static size_t WriteCallback(void* contents, size_t size, size_t nmemb, void* use
 	return size * nmemb;
 }
 
-void get_overview(const std::string league, items::unique_item item, poerequest::overview &overview)
+void get_overview(const std::string league, items::base_item* item, poerequest::overview &overview)
 {
 	std::string url = "https://www.pathofexile.com/api/trade/search/" + league;
 	CURL *curl;
@@ -29,12 +29,7 @@ void get_overview(const std::string league, items::unique_item item, poerequest:
 		headers = curl_slist_append(headers, "Content-Type: application/json");
 		curl_easy_setopt(curl, CURLOPT_HTTPHEADER, headers);
 
-		json js =
-			{
-				{"query", {{"status", {{"option", "online"}}}, {"name", item.name}, {"type", item.type}, {"stats", {{{"type", "and"}, {"filters", json::array({})}, {"disabled", false}}}}}},
-				{"sort", {{"price", "asc"}}}};
-
-		std::string js_dump = js.dump();
+		std::string js_dump = item->to_json().dump();
 		curl_easy_setopt(curl, CURLOPT_POST, 1);
 		curl_easy_setopt(curl, CURLOPT_POSTFIELDS, js_dump.c_str());
 
