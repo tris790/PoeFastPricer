@@ -1,0 +1,10 @@
+Rarity: Normal
+Sacrifice at Dusk
+--------
+The Vaal shall never fear the setting of our sun.
+--------
+Can be used in a personal Map Device.
+
+
+
+{"query":{"status":{"option":"online"},"type":"Sacrifice at Midnight","stats":[{"type":"and","filters":[]}]},"sort":{"price":"asc"}}

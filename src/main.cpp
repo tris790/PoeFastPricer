@@ -508,6 +508,8 @@ void run_hotkey()
 	if (isPathOfExile)
 	{
 		items::base_item* item = items::get_item_from_clipboard();
+		if (!item)
+			return;
 		std::cout << "Pricing: " << item->name << std::endl;
 
 		poerequest::overview overview;
@@ -520,6 +522,7 @@ void run_hotkey()
 		std::cout << "Ranging from [" << low_price.amount << " " << low_price.currency
 			<< " - " << high_price.amount << " " << high_price.currency << "]" << std::endl;
 		run_display(item, listings);
+		delete item;
 	}
 }
 
@@ -543,7 +546,6 @@ int main()
 			run_hotkey();
 		}
 	}
-	//std::thread t(run_hotkey);
 
 	curl_global_cleanup();
 	return 0;

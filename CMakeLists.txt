@@ -25,5 +25,7 @@ add_executable (poefastpricer
     src/items/unique_item.cpp
     src/items/currency_item.h
     src/items/currency_item.cpp
+    src/items/normal_item.h
+    src/items/normal_item.cpp
 )
 target_link_libraries(poefastpricer ${CONAN_LIBS})

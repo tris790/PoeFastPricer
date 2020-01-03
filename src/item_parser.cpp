@@ -4,6 +4,7 @@
 
 #include "items/unique_item.h"
 #include "items/currency_item.h"
+#include "items/normal_item.h"
 
 static enum RarityEnum {
 	Normal,
@@ -40,12 +41,14 @@ items::base_item* items::get_item_from_clipboard()
 	}
 
 	std::string rarity = lines.at(0).substr(std::string("Rarity: ").length());
+	std::string name = lines.at(1);
 
 	base_item* item = NULL;
 	switch (s_mapStringValues[rarity])
 	{
 	case RarityEnum::Normal:
 	{
+		item = new normal_item(name);
 		break;
 	}
 	case RarityEnum::Magic:
@@ -58,7 +61,7 @@ items::base_item* items::get_item_from_clipboard()
 	}
 	case RarityEnum::Unique:
 	{
-		item = new unique_item(lines.at(1), lines.at(2), "69", {}, {});
+		item = new unique_item(name, lines.at(2), "69", {}, {});
 		break;
 	}
 	case RarityEnum::Currency:
@@ -66,7 +69,7 @@ items::base_item* items::get_item_from_clipboard()
 		auto quantity = std::find_if(lines.begin(), lines.end(),
 			[](std::string line) { return line.find("Stack Size", 0) != std::string::npos; });
 
-		item = new currency_item(lines.at(1), *quantity);
+		item = new currency_item(name, *quantity);
 		break;
 	}
 	default: {
