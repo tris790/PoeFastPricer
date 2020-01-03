@@ -46,7 +46,6 @@
 using json = nlohmann::json;
 HWND Proccess_window;
 HWND Console_window;
-const std::string League = "Metamorph";
 
 static void error_callback(int e, const char* d)
 {
@@ -512,8 +511,10 @@ void run_hotkey()
 			return;
 		std::cout << "Pricing: " << item->name << std::endl;
 
+		poerequest::league league;
+		get_league(true, true, league);
 		poerequest::overview overview;
-		get_overview(League, item, overview);
+		get_overview(league.id, item, overview);
 
 		poerequest::result_listing listings;
 		get_price_listings(overview, listings);
@@ -538,6 +539,7 @@ int main()
 
 	curl_global_init(CURL_GLOBAL_ALL);
 	std::cout << "Poe Fast Pricer" << std::endl;
+	
 	MSG msg = { 0 };
 	while (GetMessage(&msg, NULL, 0, 0) != 0)
 	{

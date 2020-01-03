@@ -5,6 +5,7 @@
 #include <curl\curl.h>
 #include <sstream>
 #include "item_parser.h"
+#include "request.h"
 
 static size_t WriteCallback(void* contents, size_t size, size_t nmemb, void* userp)
 {
@@ -86,5 +87,32 @@ void get_price_listings(const poerequest::overview& overview, poerequest::result
 
 		json json_listings = json::parse(readBuffer);
 		listings = json_listings.get<poerequest::result_listing>();
+	}
+}
+
+void get_league(const bool isSoftcore, const bool isChallengeLeague, poerequest::league& league)
+{
+	std::string url = "http://api.pathofexile.com/leagues";
+	CURL* curl;
+	CURLcode res;
+	curl = curl_easy_init();
+
+	if (curl)
+	{
+		curl_easy_setopt(curl, CURLOPT_URL, url.c_str());
+		std::string readBuffer;
+		curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteCallback);
+		curl_easy_setopt(curl, CURLOPT_WRITEDATA, &readBuffer);
+		struct curl_slist* headers = NULL;
+
+		res = curl_easy_perform(curl);
+		if (res != CURLE_OK)
+			fprintf(stderr, "curl_easy_perform() failed: %s\n",
+				curl_easy_strerror(res));
+
+		curl_easy_cleanup(curl);
+		json json_leagues = json::parse(readBuffer);
+		int leagueIndex = (isSoftcore ? 0 : 1) + (isChallengeLeague ? 4 : 0);
+		league = json_leagues.get<poerequest::leagues>().current_leagues.at(leagueIndex);
 	}
 }
