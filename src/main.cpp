@@ -43,6 +43,7 @@
 
 #include <Windows.h>
 #include <thread>
+#include "hotkeys/hotkeys.h"
 using json = nlohmann::json;
 HWND Proccess_window;
 HWND Console_window;
@@ -359,7 +360,7 @@ void calculate_window_position(int win_width, int win_height, int* x, int* y)
 	*y = cursor.y + (cursor.y < mode->height / 2 ? 0 : -win_height);
 }
 
-void run_display(items::base_item* item, poerequest::result_listing listings)
+void run_display(items::base_item* item, poerequest::result_listing* listings)
 {
 	/* Platform */
 	int width = 300;
@@ -468,7 +469,7 @@ void run_display(items::base_item* item, poerequest::result_listing listings)
 			if (nk_begin(&ctx, full_item_name.c_str(), nk_rect(0, 0, width, height),
 				NK_WINDOW_TITLE))
 			{
-				for (auto& row : listings.result)
+				for (auto& row : listings->result)
 				{
 					nk_layout_row_dynamic(&ctx, 20, 2);
 					std::stringstream listing_label;
@@ -495,57 +496,22 @@ void run_display(items::base_item* item, poerequest::result_listing listings)
 	glfwTerminate();
 }
 
-void run_hotkey()
-{
-	HWND handle = GetForegroundWindow();
-	std::string poe = "Path of Exile";
-	int window_title_len = GetWindowTextLength(handle);
-	char* window_title = new char[window_title_len + 1];
-	GetWindowText(handle, window_title, poe.length() + 1);
-
-	bool isPathOfExile = poe == std::string(window_title);
-	if (isPathOfExile)
-	{
-		items::base_item* item = items::get_item_from_clipboard();
-		if (!item)
-			return;
-		std::cout << "Pricing: " << item->name << std::endl;
-
-		poerequest::league league;
-		get_league(true, true, league);
-		poerequest::overview overview;
-		get_overview(league.id, item, overview);
-
-		poerequest::result_listing listings;
-		get_price_listings(overview, listings);
-		auto low_price = listings.result.front().listing.price;
-		auto high_price = listings.result.back().listing.price;
-		std::cout << "Ranging from [" << low_price.amount << " " << low_price.currency
-			<< " - " << high_price.amount << " " << high_price.currency << "]" << std::endl;
-		run_display(item, listings);
-		delete item;
-	}
-}
-
 int main()
 {
 	Console_window = GetConsoleWindow();
-	RegisterHotKey(
-		NULL,
-		1,
-		MOD_CONTROL,
-		0x44);
-	glfw_setup();
+	hotkeys::register_hotkeys();
 
 	curl_global_init(CURL_GLOBAL_ALL);
 	std::cout << "Poe Fast Pricer" << std::endl;
-	
+
 	MSG msg = { 0 };
 	while (GetMessage(&msg, NULL, 0, 0) != 0)
 	{
 		if (msg.message == WM_HOTKEY)
 		{
-			run_hotkey();
+			hotkeys::run_price_check([](items::base_item* item, poerequest::result_listing* listings) {
+				run_display(item, listings);
+			});
 		}
 	}
 

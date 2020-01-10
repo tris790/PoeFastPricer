@@ -29,5 +29,9 @@ add_executable (poefastpricer
     src/items/normal_item.cpp
     src/requestType/leagues.h
     src/requestType/leagues.cpp
+    src/hotkeys/hotkeys.h
+    src/hotkeys/hotkeys.cpp
+    src/perf.h
+    src/perf.cpp
 )
 target_link_libraries(poefastpricer ${CONAN_LIBS})
