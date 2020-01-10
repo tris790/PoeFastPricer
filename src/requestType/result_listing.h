@@ -12,10 +12,16 @@ struct price_t
     std::string currency;
 };
 
+struct account_t
+{
+	std::string name;
+};
+
 struct listing_t
 {
     std::string indexed;
     price_t price;
+	account_t account;
 };
 
 struct result_t
@@ -44,5 +50,7 @@ void from_json(const json &j, listing_t &p);
 void to_json(json &j, const price_t &p);
 
 void from_json(const json &j, price_t &p);
+void to_json(json& j, const account_t& p);
+void from_json(const json& j, account_t& p);
 } // namespace poerequest
 #endif

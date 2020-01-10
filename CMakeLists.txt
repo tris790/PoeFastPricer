@@ -33,8 +33,9 @@ add_executable (poefastpricer
     src/perf.cpp
     src/gui/nuklear_glfw_gl3.h
     src/gui/gui.h
-    src/gui/gui.cpp
     src/nuklear.h
     src/stb_image.h
+    src/utils/time_util.h
+    src/utils/time_util.cpp
 )
 target_link_libraries(poefastpricer ${CONAN_LIBS})
