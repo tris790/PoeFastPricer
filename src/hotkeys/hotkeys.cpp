@@ -15,12 +15,14 @@ void hotkeys::run_price_check(hotkeys::callback_function callback)
 {
 	std::cout << "--------------------------------------------------" << std::endl;
 	print_time_since_last_perf("Hotkey triggered");
+
 	HWND handle = GetForegroundWindow();
 	std::string poe = "Path of Exile";
 	int window_title_len = GetWindowTextLength(handle);
 	int new_len = window_title_len + 1;
 	char* window_title = new char[new_len];
 	GetWindowText(handle, window_title, poe.length() + 1);
+	print_time_since_last_perf("Getting Window Title");
 
 	bool isPathOfExile = poe == std::string(window_title);
 	if (isPathOfExile)
@@ -31,13 +33,10 @@ void hotkeys::run_price_check(hotkeys::callback_function callback)
 			return;
 		}
 
-		print_time_since_last_perf("Pricing: " + item->name);
-
 		poerequest::league league;
 		get_league(true, true, league);
 
 		poerequest::overview overview;
-		print_time_since_last_perf("Sending get leagues request");
 		get_overview(league.id, item, overview);
 
 		poerequest::result_listing listings;

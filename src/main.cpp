@@ -44,6 +44,7 @@
 #include <Windows.h>
 #include <thread>
 #include "hotkeys/hotkeys.h"
+#include "perf.h"
 using json = nlohmann::json;
 HWND Proccess_window;
 HWND Console_window;
@@ -377,16 +378,21 @@ void run_display(items::base_item* item, poerequest::result_listing* listings)
 	glfw_setup();
 	price_check_window = glfwCreateWindow(width, height, "Demo", NULL, NULL);
 
+	print_time_since_last_perf("[GUI] glfwCreateWindow");
+
 	glfwMakeContextCurrent(price_check_window);
 	glfwSetWindowUserPointer(price_check_window, &ctx);
 	glfwSetCharCallback(price_check_window, text_input);
 	glfwSetScrollCallback(price_check_window, scroll_input);
+
+	print_time_since_last_perf("[GUI] glfwMakeContextCurrent");
 
 	int xpos;
 	int ypos;
 	calculate_window_position(width, height, &xpos, &ypos);
 	glfwSetWindowPos(price_check_window, xpos, ypos);
 
+	print_time_since_last_perf("[GUI] glfwSetWindowPos");
 
 	glfwGetFramebufferSize(price_check_window, &display_width, &display_height);
 
@@ -416,6 +422,7 @@ void run_display(items::base_item* item, poerequest::result_listing* listings)
 	Proccess_window = glfwGetWin32Window(price_check_window);
 
 	remove_window_borders();
+	print_time_since_last_perf("[GUI] openGL setup");
 
 	glfwSetWindowFocusCallback(price_check_window, window_focus_callback);
 	while (!glfwWindowShouldClose(price_check_window))
@@ -489,11 +496,15 @@ void run_display(items::base_item* item, poerequest::result_listing* listings)
 		device_draw(&device, &ctx, width, height, scale, NK_ANTI_ALIASING_ON);
 		glfwSwapBuffers(price_check_window);
 	}
+	print_time_since_last_perf("[GUI] on screen time");
+
+
 	glDeleteTextures(1, (const GLuint*)& media.skin);
 	nk_font_atlas_clear(&atlas);
 	nk_free(&ctx);
 	device_shutdown(&device);
 	glfwTerminate();
+	print_time_since_last_perf("[GUI] closing window");
 }
 
 int main()
