@@ -34,13 +34,19 @@ void hotkeys::run_price_check(hotkeys::callback_function callback)
 		}
 
 		poerequest::league league;
-		get_league(true, true, league);
-
 		poerequest::overview overview;
-		get_overview(league.id, item, overview);
-
 		poerequest::result_listing listings;
-		get_price_listings(overview, listings);
+		try {
+			get_league(true, true, league);
+			get_overview(league.id, item, overview);
+			get_price_listings(overview, listings);
+		}
+		catch (const std::exception& e)
+		{
+			std::cout << "Could not price your item..." << std::endl;
+			return;
+		}
+		
 		auto low_price = listings.result.front().listing.price;
 		auto high_price = listings.result.back().listing.price;
 

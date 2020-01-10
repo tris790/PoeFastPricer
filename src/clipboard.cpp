@@ -1,5 +1,6 @@
 #include <string>
 #include <windows.h>
+#include <iostream>
 
 void fake_ctrl_c()
 {
@@ -25,27 +26,44 @@ void fake_ctrl_c()
 	input[3].ki.wScan = input[1].ki.wScan;
 
 	SendInput(key_count, (LPINPUT)input, sizeof(INPUT));
-	Sleep(50);
-	delete input;
+	Sleep(100);
+	delete[] input;
 }
 
 void get_clipboard(std::string &content)
 {
 	OpenClipboard(NULL);
 	HANDLE handle = GetClipboardData(CF_TEXT);
-	char* pszText = static_cast<char*>(GlobalLock(handle));
-	content = pszText;
-	GlobalUnlock(handle);
-	CloseClipboard();
+	if(handle) 
+	{
+		char* pszText = static_cast<char*>(GlobalLock(handle));
+		if (pszText)
+		{
+			content = pszText;
+			GlobalUnlock(handle);
+			CloseClipboard();
+		}
+	}
+	else
+	{
+		std::cout << "Clipboard in use" << std::endl;
+	}
 }
 void set_clipboard(std::string &content)
 {
 	const size_t len = strlen(content.c_str()) + 1;
 	HGLOBAL hMem = GlobalAlloc(GMEM_MOVEABLE, len);
-	memcpy(GlobalLock(hMem), content.c_str(), len);
-	GlobalUnlock(hMem);
-	OpenClipboard(0);
-	EmptyClipboard();
-	SetClipboardData(CF_TEXT, hMem);
-	CloseClipboard();
+	if (hMem)
+	{
+		LPVOID hMemLock = GlobalLock(hMem);
+		if (hMemLock) 
+		{
+			memcpy(hMemLock, content.c_str(), len);
+			GlobalUnlock(hMem);
+			OpenClipboard(0);
+			EmptyClipboard();
+			SetClipboardData(CF_TEXT, hMem);
+			CloseClipboard();
+		}
+	}
 }

@@ -37,7 +37,7 @@
 #include <sstream>
 #include "../utils/time_util.h"
 
-#define WINDOW_WIDTH 300
+#define WINDOW_WIDTH 400
 #define WINDOW_HEIGHT 200
 
 #define MAX_VERTEX_BUFFER 512 * 1024
