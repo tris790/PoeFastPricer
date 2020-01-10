@@ -13,7 +13,7 @@ Simply follow the installing section and execute the binary.
 #
 
 ```
-alt + d     price check my item
+ctrl + d     price check my item
 ```
 
 ### Installing
