@@ -18,8 +18,6 @@ add_executable (poefastpricer
     src/clipboard.cpp
     src/item_parser.h
     src/item_parser.cpp
-    src/nuklear.h
-    src/stb_image.h
     src/items/base_item.h
     src/items/unique_item.h
     src/items/unique_item.cpp
@@ -33,5 +31,10 @@ add_executable (poefastpricer
     src/hotkeys/hotkeys.cpp
     src/perf.h
     src/perf.cpp
+    src/gui/nuklear_glfw_gl3.h
+    src/gui/gui.h
+    src/gui/gui.cpp
+    src/nuklear.h
+    src/stb_image.h
 )
 target_link_libraries(poefastpricer ${CONAN_LIBS})
